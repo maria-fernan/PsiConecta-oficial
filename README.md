@@ -1,5 +1,7 @@
 <h1 align="center"> PsiConecta </h1>
-[Logo do PsiConecta - cérebro e coração unificados] <img width="456" height="481" alt="logo" src="https://github.com/user-attachments/assets/831d43be-8eef-4b89-a245-da795c215cda" />
+[Logo do PsiConecta - cérebro e coração unificados] <img width="417" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" />
+
+<br>
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
