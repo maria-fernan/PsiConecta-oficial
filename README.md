@@ -1,5 +1,5 @@
 <h1 align="center"> PsiConecta </h1>
-[Logo do PsiConecta - cérebro e coração unificados] <img width="417" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" />
+[Logo do PsiConecta - cérebro e coração unificados] <img align="center" width="400" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" />
 
 <br><br>
 <p align="center">
@@ -16,7 +16,4 @@
   "http://localhost/localização-do-arquivo" ("localização-do-arquivo" deve ser substituída pelo caminho para chegar até os arquivos que baixou na sua máquina).</p>
   <h2>Como rodar os scripts de banco de dados: </h2><p>O Banco de Dados deve ser exportado para o phpMyAdmin (que pode ser acessado a partir do botão "Admin" na linha do "MySQL" do XAMPP).</p>
 
-  # Autores
-| [<img loading="lazy" src="![mafe](https://github.com/user-attachments/assets/88f7fe3f-cea0-48a4-8cf4-f0d9552f2bfc)
-"><br><sub>Maria Fernanda Couto</sub>] |
-| :---: | 
+Autores: Maria Fernanda Couto Figueira
