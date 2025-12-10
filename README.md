@@ -1,5 +1,4 @@
-<h1 align="center"> PsiConecta </h1>
-<img align="center" width="400" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" />
+<h1 align="center"> PsiConecta <br> <img align="center" width="400" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" /></h1>
 <p>[Logo do PsiConecta - cérebro e coração unificados] </p>
 
 <br><br>
