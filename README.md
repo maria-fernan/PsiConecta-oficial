@@ -1,7 +1,7 @@
 <h1 align="center"> PsiConecta </h1>
 [Logo do PsiConecta - cérebro e coração unificados] <img width="417" height="375" alt="logoBranca" src="https://github.com/user-attachments/assets/254c9166-43a0-4caa-bc31-ec9f2300b41b" />
 
-<br><br>
+<br>
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
@@ -17,5 +17,5 @@
   <h2>Como rodar os scripts de banco de dados: </h2><p>O Banco de Dados deve ser exportado para o phpMyAdmin (que pode ser acessado a partir do botão "Admin" na linha do "MySQL" do XAMPP).</p>
 
   # Autores
-| [<img src="![mafe](https://github.com/user-attachments/assets/2b511bcd-1890-45e5-857b-5ee4a69408f5)" width=115><br><sub>Maria Fernanda Couto</sub>] |
+| [<img loading="lazy" src="![mafe](https://github.com/user-attachments/assets/2b511bcd-1890-45e5-857b-5ee4a69408f5)"><br><sub>Maria Fernanda Couto</sub>] |
 | :---: | 
