@@ -1,0 +1,127 @@
+body{ /*Informações GERAIS do corpo*/
+    background-color: rgba(253, 251, 245, 1);
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:#183e64;
+}
+
+/*Informações sobre a barra de navegação*/
+.navbar{ /*Cor de fundo da Navbar*/
+    background-color: #fdfbf5;
+    --bs-navbar-padding-x: none;
+}
+.item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
+    margin-top: 1px;
+    font-size: 140%;
+    margin-left: 43%;
+}
+.botao-barra{ /*Definições do botão da barra de navegação*/
+    background-color: #183e64;
+    border-radius: 9%;
+    color: #ffffff;
+    margin-left: 25px;
+}
+.texto-marca{ /*Definições do título (PsiConecta) da barra de navegação*/
+    font-size: 220%;
+    margin-left: 2%;
+    color:#183e64;
+}
+.perfilpsico{
+    margin-top: 10px;
+}
+.perfil{
+    color:#183e64;
+}
+a{
+    color: #183e64;
+}
+.perfilTotal{
+    text-align: center;
+}
+
+/*Informações sobre o início*/
+.texto{ /*Características GERAIS do texto inicial*/ 
+    font-size: 140%;
+    margin: auto;
+    margin-left: 3%;
+}
+.slogan{ /*Tamanho da fonte do slogan*/
+    font-size: 210%;
+}
+.frase{ /*Características do textinho*/
+    font-weight: initial;
+    font-size: large 10%;
+}
+.destaque{ /*Destaque -> palavras em negrito*/
+    font-weight: bold;
+}
+.imagem{ /*Características da imagem*/
+    width: 70%;
+    margin: auto;
+    margin-right: 3%;
+}
+
+h2{ /*Título da seção*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 220%;
+    color: #183e64;
+}
+
+.botao{
+    align-items: center;
+}
+.status.offline {
+    background-color: red;
+    color: black;
+    font-size: 25px;
+    font-family:"Kameron";
+    border: none;
+}
+.status.online {
+    background-color: rgb(1, 180, 1);
+    color: black;
+    font-size: 25px;
+    font-family:"Kameron";
+    border: none;
+}
+.tituloCartao{ /*Definições dos títulos dos cartões*/
+    font-size: 230%;
+}
+.textoCartao{ /*Definições dos textos dos cartões*/
+    font-size: 130%;
+    font-weight: initial;
+}
+.link{ /*Definições do botão/link*/
+    color: rgba(253, 251, 245, 1);
+    text-decoration: none;
+}
+
+
+/*Dúvidas*/
+.duvidas{ /*Informação GERAL do que está do lado esquerdo*/
+    text-align: center;
+}
+.nome{ /*Escrito "PsiConecta"*/
+    font-weight: bold;
+    font-size: 160%;
+}
+.questao{ /*Pergunta do lado esquerdo*/
+    color: #183e64;
+    font-size: 170%;
+    font-weight: bold;
+}
+.sugestao{ /*Sugestão do que fazer*/
+    color: #183e64;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 120%;
+}
+.contato{ /*Informações para contato*/
+    background-color: #183e64;
+    color: #fdfbf5;
+    text-align: center;
+}

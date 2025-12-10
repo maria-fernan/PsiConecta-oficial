@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    background-color:#183e64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    background-repeat: no-repeat;
+}
+.caixa{
+    background-color: white;
+    border-radius: 4%;
+    text-align: center;
+}
+.logo{
+    margin-top: 3.5%;
+    width: 13%;
+}
+h2{
+    color: #1f3c5b !important;
+    font-size: 160%;
+    font-weight: bold;
+}
+.termos{
+    color: #24609b;
+}
+button[type="submit"] {
+  background-color: #1f3c5b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.confirma{
+    text-align: center  ;
+}
+
+
+
+/* fundo escuro */
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.backdrop.show {
+    display: flex;
+}
+
+/* caixa central */
+.modal-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+/* cabeçalho do modal */
+.modal-box header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.modal-box h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #1f3c5b;
+}
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #1f3c5b;
+    font-weight: bold;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 0.75em;
+    margin-bottom: .125rem;
+}

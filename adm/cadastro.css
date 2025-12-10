@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    background-color:#183e64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    background-repeat: no-repeat;
+}
+.caixa{
+    background-color: white;
+    border-radius: 4%;
+    text-align: center;
+}
+.logo{
+    margin-top: 3.5%;
+    width: 13%;
+}
+h2{
+    color: #1f3c5b !important;
+    font-size: 160%;
+    font-weight: bold;
+}
+.botaoV{
+    color: #1f3c5b !important;
+    font-size: 115%;
+    font-weight: initial;
+    margin-top: 3%;
+}
+button[type="submit"] {
+  background-color: #1f3c5b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.senha{
+    color: #1f3c5b !important;
+    text-decoration: none !important;
+}
