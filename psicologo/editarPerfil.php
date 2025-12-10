@@ -14,8 +14,6 @@
     $crp = $_SESSION["crp"];
 
     $psi = $conexao->query("SELECT nome, email, dtNasc, senha, foto, telefone FROM psicologo WHERE crp = '$crp'")->fetch_assoc();
-    
-    //$t = $conexao->query("SELECT crp, telefone FROM telpsi WHERE crp = '$crp'")->fetch_assoc();
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $nome  = $_POST["nome"];
@@ -27,11 +25,6 @@
         $stmt = $conexao->prepare("UPDATE psicologo SET nome = ?, email = ?, dtNasc = ?, telefone = ? WHERE crp = ?");
         $stmt->bind_param("sssss", $nome, $email, $dtNasc, $telefone, $crp );
         $stmt->execute();
-
-        // Atualizar telefone
-        //$stmt2 = $conexao->prepare("UPDATE telpsi SET telefone = ? WHERE crp = ?");
-        //$stmt2->bind_param("ss", $telefone, $crp);
-        //$stmt2->execute();
 
         $senha_atual = $_POST["senha_atual"];
         $nova_senha = $_POST["nova_senha"];

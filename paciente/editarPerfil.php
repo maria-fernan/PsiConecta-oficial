@@ -15,7 +15,6 @@
 
     $p = $conexao->query("SELECT nome, email, dtNasc, senha, telefone FROM paciente WHERE idPaciente = $idPaciente")->fetch_assoc();
     
-    //$t = $conexao->query("SELECT idPaciente, telefone FROM telpaci WHERE idPaciente = $idPaciente")->fetch_assoc();
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $nome  = $_POST["nome"];
@@ -27,11 +26,6 @@
         $stmt = $conexao->prepare("UPDATE paciente SET nome = ?, email = ?, dtNasc = ?, telefone = ? WHERE idPaciente = ?");
         $stmt->bind_param("ssssi", $nome, $email, $dtNasc, $telefone, $idPaciente);
         $stmt->execute();
-
-        // Atualizar telefone
-        //$stmt2 = $conexao->prepare("UPDATE telpaci SET telefone = ? WHERE idPaciente = ?");
-        //$stmt2->bind_param("si", $telefone, $idPaciente);
-        //$stmt2->execute();
 
         $senha_atual = $_POST["senha_atual"];
         $nova_senha = $_POST["nova_senha"];

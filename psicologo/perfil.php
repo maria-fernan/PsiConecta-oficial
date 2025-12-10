@@ -33,19 +33,6 @@
     $foto = $dados["foto"];
     $telefone = $dados["telefone"];
 
-    // Telefone (tabela multivalorada)
-    //$sqlTel = "SELECT telefone FROM telpsi WHERE crp = '$crp'";
-    //$telefoneRes = $conexao->query($sqlTel);
-
-    //if (!$telefoneRes) {
-    //    die("Erro na consulta SQL (telpsi): " . $conexao->error);
-    //}
-
-    // Caso tenha vários telefones, você decide se pega só o primeiro:
-    //$telefone = "";
-    //if ($telefoneRes->num_rows > 0) {
-    //    $telefone = $telefoneRes->fetch_assoc()["telefone"];
-    //}
 ?>
 <head>
     <meta charset="UTF-8">

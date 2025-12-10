@@ -41,20 +41,14 @@ if ($result->num_rows > 0) {
     // Pega o ID gerado
     $idPaciente = $stmt->insert_id;
 
-    // 4. Inserir telefone
-    //$sqlTel = "INSERT INTO telpaci (telefone, idPaciente) VALUES (?, ?)";
-    //$stmtTel = $conn->prepare($sqlTel);
-    //$stmtTel->bind_param("si", $telefone, $idPaciente);
-    //$stmtTel->execute();
-
-    // 5. CRIA SESSÃO AUTOMÁTICA APÓS CADASTRO
+    // 4. CRIA SESSÃO AUTOMÁTICA APÓS CADASTRO
     session_start();
     $_SESSION['idPaciente'] = $idPaciente;
     $_SESSION['nome'] = $nome;
     $_SESSION['email'] = $email;
     $_SESSION['logado'] = true;
 
-    // 6. Redireciona para página de sucesso (ou para o painel do paciente)
+    // 5. Redireciona para página de sucesso (ou para o painel do paciente)
     header("Location: cadastroSucesso.html");
     exit;
 } else {

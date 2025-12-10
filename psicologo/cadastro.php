@@ -36,12 +36,6 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("sssssssss", $nome, $cpf, $dtNasc, $email, $senhaHash, $crp, $area_atuacao, $tempo_atuacao, $telefone);
 $stmt->execute();
 
-// Inserir telefone
-//$sqlTel = "INSERT INTO telpsi (telefone, crp) VALUES (?, ?)";
-//$stmtTel = $conn->prepare($sqlTel);
-//$stmtTel->bind_param("ss", $telefone, $crp);
-//$stmtTel->execute();
-
 // Inserir status inicial OFFLINE
 $sqlStatus = "INSERT INTO on_line (crp, status) VALUES (?, 'offline')";
 $stmtStatus = $conn->prepare($sqlStatus);
