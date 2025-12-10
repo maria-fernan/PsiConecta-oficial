@@ -6,8 +6,7 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 <br>
-<p> O PsiConecta é um site voltado para pessoas que procuram por ajuda psicológica e para psiólogos dispostos a ajudar de forma gratuita. <br>
-  O psicólogo irá se cadastrar e verificaremos se ele está apto para o trabalho.</p>
+<p> O PsiConecta é um site voltado para pessoas que procuram por ajuda psicológica e para psiólogos dispostos a ajudar de forma gratuita.</p>
 <br><br>
 <h2>Como configurar o ambiente local: </h2><p>Você precisa ter o XAMPP e o Visual Studio Code instalados em seu computador. 
   A partir disso, precisa dar 'start' no "Apache" e no "MySQL" que estão no XAMPP. Depois, baixar os arquivos desse repositório e abri-los no Visual Studio Code.
