@@ -16,6 +16,3 @@
   <h2>Como rodar os scripts de banco de dados: </h2><p>O Banco de Dados deve ser exportado para o phpMyAdmin (que pode ser acessado a partir do botão "Admin" na linha do "MySQL" do XAMPP).</p>
 
 <h3>Autores:</h3><p> Maria Fernanda Couto Figueira</p>
-
-<br><br>
-Observção: Os outros integrantes do grupo optaram por não realizar essa atividade.
